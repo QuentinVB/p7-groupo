@@ -21,8 +21,8 @@ export default {
 
 <template>
   <Post
-    v-for="(post, index) in posts.slice().reverse()"
-    v-bind:post="post"
+    v-for="(postData, index) in posts.slice().reverse()"
+    v-bind:post="postData"
     v-bind:index="index"
   >
   </Post>
